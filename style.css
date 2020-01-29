@@ -10,7 +10,7 @@ body,html{
 
    
     .box{
-        width: 60%;
+        width: 80%;
         background: rgba(0, 0, 0, 0.4);
         padding: 40px;
         text-align: center;
@@ -62,11 +62,16 @@ body,html{
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        color: white;
+        color: black;
         border: 2px solid;
         padding: 10px;
         cursor: pointer;
     
+    }
+    .show-login-btn img{
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
     }
     
     .showed{
